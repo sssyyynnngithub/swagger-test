@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  title: Example yaml.spec
+  description: |
+    n = 506; var payload = `${"<div>".repeat(n)}<table id="outer"><caption id="outer"><svg><desc><table id="inner"><caption id="inner"></caption></table></desc><style><a title="</style><img src onerror=alert(1)>"></a></style></svg></caption></table>${"</div>".repeat(n)}`;
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
