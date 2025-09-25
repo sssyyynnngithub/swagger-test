@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/iamshafayat/Swagger/refs/heads/main/login.yaml",
+    "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/login.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/iamshafayat/Swagger/refs/heads/main/login.yaml",
+            "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/login.yaml",
             "name": "Admin"
         }
     ]
