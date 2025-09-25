@@ -1,9 +1,10 @@
 {
-    "url": "https://raw.githubusercontent.com/iamshafayat/Swagger/refs/heads/main/xss/xsstest.yaml",
+    "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/xsstest.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/iamshafayat/Swagger/refs/heads/main/xss/xsstest.yaml",
-            "name": "M4ST3R MIND"
+            "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/xsstest.yaml",
+            "name": "Swagger test"
         }
     ]
 }
+
