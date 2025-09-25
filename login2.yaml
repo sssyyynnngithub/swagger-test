@@ -34,7 +34,7 @@ info:
 
 <!-- Footer with your name -->
 <div style="position: fixed; bottom: 10px; right: 10px; font-size: 12px; color: #888;">
-  POC BY M4ST3R M1ND
+  Swagger login POC
 </div>
   '
 paths:
