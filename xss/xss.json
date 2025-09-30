@@ -1,24 +1,21 @@
 {
     "urls": [
         {
-            "url0": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/xss.yaml",
+            "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/xss.yaml",
             "name": "Swagger0 xss"
         },
         {
-            "url1": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger1.yaml",
+            "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger1.yaml",
             "name": "Swagger1 xss"
         },
         {
-            "url2": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger2.yaml",
+            "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger2.yaml",
             "name": "Swagger2 xss"
         },
         {
-            "url9": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger9.yaml",
-            "name": "Swagger9 xss"
-        }
-            {
-            "url10": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger10.yaml",
-            "name": "Swagger10 xss"
-        }
-    ]
-}
+            "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger9.yaml",
+            "name": "Swagger9 xss"  // 修正为唯一名称
+        },
+        {
+            "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger10.yaml",
+            "name": "Swagger
