@@ -14,8 +14,11 @@
         },
         {
             "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger9.yaml",
-            "name": "Swagger9 xss"  // 修正为唯一名称
+            "name": "Swagger9 xss"  
         },
         {
             "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger10.yaml",
-            "name": "Swagger
+            "name": "Swagger10 xss"
+        }
+    ]
+}
