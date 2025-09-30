@@ -1,15 +1,23 @@
 {
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger2.yaml",
-            "name": "Swagger xss"
+            "url0": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/xss.yaml",
+            "name": "Swagger0 xss"
         },
         {
-            "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/xss.yaml",
+            "url1": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger1.yaml",
+            "name": "Swagger1 xss"
+        },
+        {
+            "url2": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger2.yaml",
             "name": "Swagger2 xss"
         },
         {
-            "url": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger10.yaml",
+            "url9": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger9.yaml",
+            "name": "Swagger2 xss"
+        }
+            {
+            "url10": "https://raw.githubusercontent.com/sssyyynnngithub/swagger-test/refs/heads/main/xss/swagger10.yaml",
             "name": "Swagger10 xss"
         }
     ]
