@@ -4,7 +4,7 @@ info:
   title: Test Page
   description: >
     <div>Test HTML Injection</div>
-    <a href='http://13.218.73.5/steal'>Click to Login</a>
+    <a href=' https://agelong-susurrant-zayne.ngrok-free.dev/steal'>Click to Login</a>
     <p>Swagger POC</p>
 paths:
   /:
