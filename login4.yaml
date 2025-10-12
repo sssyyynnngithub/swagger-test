@@ -1,0 +1,14 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Test Page
+  description: >
+    <div>Test HTML Injection</div>
+    <a href='https://agelong-susurrant-zayne.ngrok-free.dev/fake-login'>Click to Login</a>
+    <p>Swagger POC</p>
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Test successful
