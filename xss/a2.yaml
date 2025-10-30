@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: DOMPurify 2.3.10 mXSS in Swagger UI
+  title: DOMPurify 2.3.10 mXSS in Swagger UI111
   description: |
     <details open><summary>Click me</summary>
       <script>
@@ -15,4 +15,5 @@ paths:
       responses:
         '200':
           description: OK
+
 
